@@ -1,5 +1,5 @@
 """
-Program that checks parity of brackets
+Program that fills parity brackets and counts syntax error score
 AoC 2021 - task 10, part 1
 
 Tomasz Karlubik
