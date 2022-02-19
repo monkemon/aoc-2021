@@ -38,6 +38,7 @@ def run_diagnosis(list):
             gamma_rate = gamma_rate << 1
             mask = mask << 1
 
+    # inverting only the masked part of `gamma_rate`
     epsilon_rate = gamma_rate ^ mask
         
     print(gamma_rate)
