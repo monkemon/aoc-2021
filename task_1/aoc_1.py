@@ -5,6 +5,7 @@ AoC 2021 - task 1, part 2
 Tomasz Karlubik
 """
 
+
 def main():
     input_file = open("depth_report.txt")
 
