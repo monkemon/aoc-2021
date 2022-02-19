@@ -31,7 +31,7 @@ def is_corrupted(string):
         # on `closer` encounter, check if the last char on our stack matches
         # if yes, pop last char and proceed, if not, return the mismatched bracket
         if ch in closers:
-            if ch == pairs[stack[-1]]:
+            if stack and ch == pairs[stack[-1]]:
                 stack.pop()
             
             else:
